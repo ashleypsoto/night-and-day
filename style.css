@@ -1,0 +1,29 @@
+#orb{
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  margin: 100px auto 0 auto;
+
+}
+
+.sun{
+
+  background-image: url("sun.jpg");
+  background-repeat: no-repeat;
+  background-position: 100px auto 100px auto;
+
+  /*border: 10px solid #black;*/
+}
+
+.moon{
+  background: linear-gradient(black, white); /* Standard syntax */
+  /*border:10px solid #black;*/
+}
+
+.daySky{
+  background: linear-gradient(blue, pink); /* Standard syntax */
+}
+
+.nightSky{
+  background: linear-gradient(purple, blue); /* Standard syntax */
+}
