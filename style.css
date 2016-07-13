@@ -10,7 +10,7 @@
 
   background-image: url("sun.jpg");
   background-repeat: no-repeat;
-  background-position: 100px auto 100px auto;
+  background-attachment: fixed;
 
   /*border: 10px solid #black;*/
 }
@@ -22,8 +22,12 @@
 
 .daySky{
   background: linear-gradient(blue, pink); /* Standard syntax */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .nightSky{
   background: linear-gradient(purple, blue); /* Standard syntax */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
