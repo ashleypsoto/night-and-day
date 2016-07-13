@@ -10,6 +10,7 @@
 
   background-image: url("sun.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   /*background-attachment: fixed;*/
 
   /*border: 10px solid #black;*/
